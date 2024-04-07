@@ -1,11 +1,11 @@
 #! /usr/bin/env Node
 import inquirer from "inquirer";
 const country = {
-USD:1,
-    PKR:277.54,
-    INR:83.30,
-    KRW:1351.26,
-    JPY:151.61,
+    USD: 1,
+    PKR: 277.54,
+    INR: 83.30,
+    KRW: 1351.26,
+    JPY: 151.61,
 };
 let currency = await inquirer.prompt([{
         name: "first",
