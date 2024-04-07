@@ -1,7 +1,7 @@
 #! /usr/bin/env Node
 import inquirer from "inquirer";
 const country:any={
-  USD:1,
+    USD:1,
     PKR:277.54,
     INR:83.30,
     KRW:1351.26,
